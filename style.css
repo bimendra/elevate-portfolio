@@ -12,3 +12,20 @@ License URI: LICENSE
 Text Domain: _s
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+:root {
+    --font-family: 'Inter', sans-serif;
+    --header-font-weight: 700;
+    --body-font-weight: 400;
+}
+
+/* Apply the variables */
+body {
+    font-family: var(--font-family);
+    font-weight: var(--body-font-weight);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family);
+    font-weight: var(--header-font-weight);
+}
